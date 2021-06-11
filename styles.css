@@ -10,15 +10,15 @@ body{
   50%  {background-color: yellow;}
   100% {background-color: lightgreen;}
 }
-/*
-body {
+
+.homebody {
   width: 100px;
   height: 100px;
   background-color: red;
   animation-name: sesamebackground;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-}*/
+}
 
 .sesamemap{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -26,7 +26,7 @@ body {
 
 img{
   margin-top: 5%;
-  margin-left: 0%;
+  margin-bottom: 5%;
   text-align: center;
 }
 
