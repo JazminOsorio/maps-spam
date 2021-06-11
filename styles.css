@@ -5,10 +5,10 @@ body{
 }
 */
 @keyframes sesamebackground {
-  0%   {background-color: red;}
-  25%  {background-color: aqua;}
-  50%  {background-color: yellow;}
-  100% {background-color: lightgreen;}
+  0%   {background-color: red;font-size: xx-large;text-align: center;position: relative;left:45%;}
+  25%  {background-color: aqua;font-size: xx-large;text-align: center;position: relative;left:45%;}
+  50%  {background-color: yellow;font-size: xx-large;text-align: center;position: relative;left:45%;}
+  100% {background-color: lightgreen;font-size: xx-large;text-align: center;position: relative;left:45%;}
 }
 
 .homebody {
@@ -18,6 +18,10 @@ body{
   animation-name: sesamebackground;
   animation-duration: 3s;
   animation-iteration-count: infinite;
+}
+
+.infobody{
+  background-color: lightgoldenrodyellow;
 }
 
 .sesamemap{
@@ -32,4 +36,8 @@ img{
 
 .maintitle{
   text-align: center;
+}
+
+.hometitle{
+  font-size: xx-large;
 }
