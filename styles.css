@@ -1,6 +1,35 @@
+/*
 body{
   background-image: linear-gradient(rgb (81, 16, 11), rgb (75, 75, 75), rgb(223, 217, 217));
+  style="background-color:aqua; text-align: center;"
 }
+*/
+@keyframes sesamebackground {
+  0%   {background-color: red;}
+  25%  {background-color: aqua;}
+  50%  {background-color: yellow;}
+  100% {background-color: lightgreen;}
+}
+/*
+body {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: sesamebackground;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}*/
+
 .sesamemap{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img{
+  margin-top: 5%;
+  margin-left: 0%;
+  text-align: center;
+}
+
+.maintitle{
+  text-align: center;
 }
